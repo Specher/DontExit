@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <ImageView android:id="@+id/app_icon" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:src="@drawable/ic_launcher" />
-    <TextView android:textSize="15sp" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="7dp" android:singleLine="true" android:layout_toRightOf="@id/app_icon" android:text="名称"/>
-    <TextView android:textSize="12sp" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/app_pkg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="3dp" android:singleLine="true" android:layout_toRightOf="@id/app_icon" android:layout_below="@id/app_name"   android:textColor="#0099CC" android:text="包名"/>
-</RelativeLayout>
